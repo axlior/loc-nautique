@@ -1,0 +1,80 @@
+/* Réinitialisation des marges et des paddings pour une apparence plus propre */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style de l'en-tête */
+h1 {
+    font-size: 28px;
+    text-align: center;
+    padding: 20px;
+    background-color: #007bff;
+    color: #fff;
+}
+
+/* Style des sections */
+h2 {
+    font-size: 24px;
+    margin-top: 30px;
+    color: #007bff;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-top: 10px;
+    color: #333;
+}
+
+/* Style du pied de page */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+/* Ajout de styles spécifiques pour le texte de contact */
+footer p {
+    font-style: italic;
+    color: #888;
+}
+
+/* Ajout d'un style pour les numéros de téléphone */
+.contact-phone {
+    font-weight: bold;
+    color: #007bff;
+}
+
+/* Style pour les liens */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Style pour les tarifs */
+.tariffs {
+    background-color: #f0f0f0;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+/* Style pour les points de la liste */
+.list-item {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.list-item::before {
+    content: "\2022"; /* Utilisation d'un cercle comme puce */
+    color: #007bff;
+    font-weight: bold;
+    margin-right: 10px;
+}
